@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2024-05-13T03:24:29.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ijgQfekV4Fz0KBqVNu2D" version="24.4.0" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="2284" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-1" value="Беглое описание сущностей.&#xa;# службы:&#xa;- обработчик базы данных&#xa;- служба учёта товаров&#xa;- служба обработки оплаты товара&#xa;- служба взаимодействия пользователей в системе&#xa;&#xa;&#xa;# классы:&#xa;- Работник:&#xa;₽ поля:&#xa;- ФИО &#xa;- Дата рождения&#xa;@ методы: &#xa;- регистрация&#xa;- вход в систему&#xa;- отправить сообщение пользователю&#xa;&#xa;- Администратор (~работник):&#xa;@ методы:&#xa;- добавление и удаление пользователей&#xa;- настройка прав пользователей&#xa;- Менеджер (~работник): &#xa;@ методы:&#xa;- добавление препаратов&#xa;- добавление поставщиков&#xa;- добавление категории, описаний и т.п.&#xa;- посмотреть сводную таблицу всех товаров&#xa;&#xa;&#xa;- Фармацевт (~работник):&#xa;@ методы:&#xa;- проверка наличия препарата, цены и даты поступления (если отсутствует)&#xa;- продажа товара&#xa;- набор цены на онлайн кассе для оплаты" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="10" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-2" value="MODEL" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-3" value="CONTROLLER" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-4" value="VIEW" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="Xxk3O7vra6RRa3d3tS-W-4" target="Xxk3O7vra6RRa3d3tS-W-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxk3O7vra6RRa3d3tS-W-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="Xxk3O7vra6RRa3d3tS-W-3" target="Xxk3O7vra6RRa3d3tS-W-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et8NtNPIz39A62YMRKRr-2" value="Архитектура MVC&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
